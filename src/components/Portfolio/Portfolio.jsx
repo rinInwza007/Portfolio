@@ -1,5 +1,7 @@
 import React from 'react'
 import styles from './Portfolio.module.css'
+import po1 from './m1.png'
+import po2 from './m2.png'
 
 function Portfolio() {
   return (
@@ -7,28 +9,16 @@ function Portfolio() {
       <h3 className={styles.port_title}>Portfolio</h3>
       <div className={styles.port_list}>
         <div className={styles.port_items}>
-            <img src="https://i.pinimg.com/736x/01/a8/b2/01a8b20022d3ac8d1c0ad960e7b67466.jpg" alt="" />
-            <p>Project Title</p>
+            <img src={po1} alt="" />
+            <p>Free code camp</p>
         </div>
         <div className={styles.port_items}>
-            <img src="https://plus.unsplash.com/premium_photo-1690303193653-0418179e5512?q=80&w=1297&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-            <p>Project Title</p>
+            <img src="https://scontent.fbkk5-8.fna.fbcdn.net/v/t39.30808-6/414799055_1022431952385865_8212545564174735036_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=9FpgB_OvQo4AX_WwxLO&_nc_ht=scontent.fbkk5-8.fna&oh=00_AfCJkYpIWCy1sawXpEnYZtE3kgtArtMsEjG1Z_Ddh9id_w&oe=65F16D50" alt="" />
+            <p>Thai Mooc</p>
         </div>
         <div className={styles.port_items}>
-            <img src="https://plus.unsplash.com/premium_photo-1690303193653-0418179e5512?q=80&w=1297&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-            <p>Project Title</p>
-        </div>
-        <div className={styles.port_items}>
-            <img src="https://plus.unsplash.com/premium_photo-1690303193653-0418179e5512?q=80&w=1297&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-            <p>Project Title</p>
-        </div>
-        <div className={styles.port_items}>
-            <img src="https://plus.unsplash.com/premium_photo-1690303193653-0418179e5512?q=80&w=1297&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-            <p>Project Title</p>
-        </div>
-        <div className={styles.port_items}>
-            <img src="https://plus.unsplash.com/premium_photo-1690303193653-0418179e5512?q=80&w=1297&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="" />
-            <p>Project Title</p>
+            <img src={po2} alt="" />
+            <p>Code.org</p>
         </div>
       </div>
     </div>

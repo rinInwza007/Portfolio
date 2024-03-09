@@ -1,7 +1,7 @@
 .contact_wrapper {
     height: 500px;
-    background-color: #8d38c9;
-    color: white;
+    background-color: #5f3263;
+    color: #f37b8c;
     overflow: hidden;
   
     & .contact_con {

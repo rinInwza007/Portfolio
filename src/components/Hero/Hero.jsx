@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Hero.module.css";
 import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
+import { VscTwitter } from "react-icons/vsc";
 import { TypeAnimation } from "react-type-animation";
 import Tilt from 'react-parallax-tilt'
 
@@ -10,25 +11,26 @@ function Hero() {
       <div className={styles.container}>
         <div className={styles.hero_content}>
           <div className={styles.hero_info}>
-            <p className={styles.text_1}>Greetings, tech enthusiast!</p>
+            <p className={styles.text_1}>Hello Everone ,こんにちは,你好，大家,สวัสดีทุกคน</p>
             <h3 className={styles.text_2}>Apiwat phanwiriyachai</h3>
             <p className={styles.text_3}>
               <span>I am a </span>
+              
               <TypeAnimation
                 sequence={[
                   // Same substring at the start will only be typed out once, initially
                   "full-stack",
-                  10000, // wait 1s before replacing "Mice" with "Hamsters"
+                  1000, // wait 1s before replacing "Mice" with "Hamsters"
                   "Web developer.",
-                  10000,
+                  1000,
+                  
                 ]}
                 speed={50}
                 repeat={Infinity}
               />
 </p>
             <p className={styles.text_4}>
-              who crafted this online experience. Take a peek under the hood and
-              see what makes it tick.
+            I am a web developer based in Thailand. I specialize in building exceptional digital experiences.
             </p>
             <ul className={styles.hero_social}>
               <li>
@@ -44,6 +46,11 @@ function Hero() {
               <li>
                 <a href="https://www.facebook.com/apiwat.panwiriyachi.9">
                   <FaFacebookF />
+                </a>
+              </li>
+              <li>
+                <a href="https://twitter.com/Rinmyonggun">
+                  <VscTwitter />
                 </a>
               </li>
             </ul>

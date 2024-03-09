@@ -1,17 +1,17 @@
 nav {
-    background-color: yellow;
+    background-color: #5f3263;
     overflow: hidden;
     position: relative;
   
     & a {
-      color: black;
+      color: #f37b8c;
     }
   
     .bars {
       position: absolute;
       top: 45px;
       right: 20px;
-      color: black  ;
+      color: #f37b8c  ;
     }
   
     & .container {
@@ -48,7 +48,7 @@ nav {
       & .button {
         width: 100px;
         height: 35px;
-        background-color: white;
+        background-color: #f37b8c;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -100,7 +100,7 @@ nav {
     & .mobile_button {
       width: 100px;
       height: 35px;
-      background-color: white;
+      background-color: #f37b8c;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -116,7 +116,7 @@ nav {
   
       a {
         text-decoration: none;
-        color: #8d38c9;
+        color: #f37b8c;
         font-weight: bold;
       }
     }

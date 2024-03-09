@@ -1,6 +1,6 @@
 .number_con {
     height: 300px;
-    background-color: #8d38c9;
+    background-color: #5f3263;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,7 +8,7 @@
     margin-top: 80px;
 
     & .number_items {
-        color: white;
+        color: #f37b8c;
         margin: 0 50px;
 
         & h3 {

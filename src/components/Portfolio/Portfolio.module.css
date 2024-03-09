@@ -1,6 +1,6 @@
 .port_con {
     max-width: 1170px;
-    height: 900px;
+    height: 570px;
     margin: 0 auto;
     overflow: hidden;
 
@@ -9,6 +9,7 @@
         text-align: center;
         font-size: 32px;
         font-weight: bold;
+        color:  #5f3263;
     }
 
 
@@ -31,6 +32,7 @@
                 font-size: 16px;
                 font-weight: bold;
                 margin: 10px 0;
+                color:#f37b8c;
             }
         }
     }

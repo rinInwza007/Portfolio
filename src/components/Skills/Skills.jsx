@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './Skills.module.css'
 import { FaSquareJs, FaReact, FaCss3 , FaGitAlt, FaNode} from 'react-icons/fa6'
 
+
 function Skills() {
   return (
     <div className={styles.skills_container}>
@@ -12,6 +13,7 @@ function Skills() {
             <li><FaCss3 /></li>
             <li><FaGitAlt/></li>
             <li><FaNode/></li>
+
         </ul>
       
     </div>
