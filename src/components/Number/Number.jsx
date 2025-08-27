@@ -12,7 +12,7 @@ function Number() {
             {({ isVisible }) => (
               <div>
                 {isVisible ? (
-                  <CountUp start={0} end={79} duration={3} />
+                  <CountUp start={0} end={12} duration={3} />
                 ) : null}
                 +
               </div>

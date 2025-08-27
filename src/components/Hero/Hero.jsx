@@ -4,6 +4,7 @@ import { FaGithub, FaLinkedinIn, FaFacebookF } from "react-icons/fa6";
 import { VscTwitter } from "react-icons/vsc";
 import { TypeAnimation } from "react-type-animation";
 import Tilt from 'react-parallax-tilt'
+import po1 from './01.jpg'
 
 function Hero() {
   return (
@@ -18,9 +19,7 @@ function Hero() {
               
               <TypeAnimation
                 sequence={[
-                  // Same substring at the start will only be typed out once, initially
-                  "full-stack",
-                  1000, // wait 1s before replacing "Mice" with "Hamsters"
+                  // Same substring at the start will only be typed out once, initially// wait 1s before replacing "Mice" with "Hamsters"
                   "Web developer.",
                   1000,
                   
@@ -58,7 +57,7 @@ function Hero() {
 
           <div>
             <Tilt scale="1.2" trasition={2500} tiltReverse={true}>
-            <div className={styles.hero_image}></div>
+            <div className={styles.hero_image}><img src={po1} alt="" /></div>
             </Tilt>
           </div>
         </div>
